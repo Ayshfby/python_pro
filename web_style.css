@@ -1,0 +1,29 @@
+body {
+    font-family: "Inter"; /* keluarga font */
+    font-size: 20px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #5988FF; /* Warna latar belakang laman web */
+    color: #D6FF6B; /* Warna teks */
+}
+
+@keyframes color-change {
+    0% {
+      color: #FD98FB;
+    }
+  
+    50% {
+      color: #f54ef2;
+    }
+  
+    100% {
+      color: #f54eaa;
+    }
+}
+
+h1 {
+    color: #FD98FB; /* Warna tajuk (header)*/
+    font-size: 45px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+    border: 5px solid rgb(225, 225, 225);
+    text-decoration-color: #800080;
+    animation: color-change 3s infinite;
+}
